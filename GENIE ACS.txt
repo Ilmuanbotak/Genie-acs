@@ -26,3 +26,22 @@ mongo --eval 'db.runCommand({ connectionStatus: 1 })'
 
 3. Install GenieACS
 http://docs.genieacs.com/en/latest/installation-guide.html#install-genieacs
+
+
+4. Replace Logo Image Genie-acs
+Remote Ubuntu 18.04 dengan ssh di Mobaxterm
+
+lalu chmod ke directory dimana logo image genieacs disimpan
+ex:  cd chmod777 /usr/lib/node_modules/genieacs/public
+
+lalu uploud file gambar ke directory tersebut
+
+setelah itu donwload file app-FOJWPRV7.js
+
+lalu edit isi code yang ada di file app-FOJWPRV7.js, lalu find "<nama_file_gambar.svg>" ganti dengan nama file gambar yang telah di upload
+
+lalu save,
+
+kemudian replace file app-FOJWPRV7.js dengan file yanng telah diedit dan di save , lalu upload.
+
+
